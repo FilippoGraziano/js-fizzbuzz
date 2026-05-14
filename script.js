@@ -1,6 +1,6 @@
 //r Mostra tutti i numeri da 0 a 99
-for (i = 0; i < 100; i++) {
-    let value = i + 1;
+for (i = 1; i <= 100; i++) {
+    let value = i;
 
     //r Se il numero è divisibile sia per 3 che per 5 allora tranformalo in "FizzBuzz"
     if (value % 3 === 0 && value % 5 === 0) value = `FizzBuzz`;
